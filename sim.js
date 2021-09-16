@@ -29,6 +29,9 @@ var pxsim;
                 }, 1000);
             });
         }
+        kill() {
+            this.game.destroy(true);
+        }
         initPhaser() {
             this.game = new Phaser.Game({
                 type: Phaser.AUTO,
