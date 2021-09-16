@@ -1,8 +1,8 @@
 CACHE MANIFEST
 
 CACHE:
-/bluebird/bluebird.min.js
-/phaser/phaser.min.js
+/pxt-phaser/bluebird.min.js
+/pxt-phaser/phaser.min.js
 /pxt-phaser/pxtsim.js
 /pxt-phaser/sim.js
 /pxt-phaser/sim.css
