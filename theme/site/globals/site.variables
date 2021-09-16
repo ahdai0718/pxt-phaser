@@ -1,0 +1,121 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+/*--------------
+      Page
+---------------*/
+
+@pageBackground      : #F9F9F9;
+
+/*-------------------
+     Fonts
+--------------------*/
+
+@headerFont        : "Share Tech Mono", Monaco, Menlo, "Ubuntu Mono", Consolas, source-code-pro, monospace;
+@pageFont          : "Share Tech Mono", Monaco, Menlo, "Ubuntu Mono", Consolas, source-code-pro, monospace;
+
+@docsHeaderFont: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@docsPageFont: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+@importGoogleFonts: false;
+@fontName: "Share Tech Mono";
+
+/*-------------------
+      Site Colors
+--------------------*/
+
+/*---  Colors  ---*/
+@black            : #34495e;
+@green            : #2ecc71;
+@grey             : #7f8c8d;
+@orange           : #F76820;
+@pink             : #E91E63;
+@teal             : #028B9B;
+@yellow           : #f1c40f;
+
+/* 32 colors */
+@purple           : #6B4F76;
+@blue             : #B1E3DA;
+@beige            : #FEF3E0;
+@salmon           : #E95153;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@primaryColor        : @orange;
+@secondaryColor      : @orange;
+
+@lightPrimaryColor   : @lightBlue;
+@lightSecondaryColor : @lightGrey;
+
+/*******************************
+     PXT Variables
+*******************************/
+
+/*-------------------
+   Menu
+--------------------*/
+
+@mainMenuInvertedBackground: @orange;
+@mainMenuTutorialBackground: @teal;
+@mainMenuTutorialButtons: @orange;
+
+@mainMenuBlocksJsToggleColor: @primaryColor;
+
+@tutorialSelectedMenuColor: @primaryColor;
+
+/*-------------------
+   Layout
+--------------------*/
+
+@sideBarWidth: 22rem;
+@simulatorWidth: 27rem;
+@simulatorWidthSmall: 20rem;
+
+/*-------------------
+   Background
+--------------------*/
+
+@simulatorBackground: @blue;
+@editorToolsBackground: @beige;
+@blocklySvgColor: @beige;
+
+@homeScreenBackground: @beige;
+
+/*-------------------
+   Full screen
+--------------------*/
+
+@fullscreenBackgroundGradientStart: @simulatorBackground;
+@fullscreenBackgroundGradientEnd: @simulatorBackground;
+
+/*-------------------
+   Editor
+--------------------*/
+
+@blocklyToolboxColor: @beige;
+@trashIconColor: @primaryColor;
+
+/*-------------------
+   Blockly
+--------------------*/
+
+@blocklyFont: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+
+/*-------------------
+   Flyout
+--------------------*/
+
+@flyoutLabelColor: white;
+@blocklyFlyoutColor: @grey;
+@blocklyFlyoutColorOpacity: 0.9;
+@monacoFlyoutColor: fade(@blocklyFlyoutColor, 97%);
+@monacoFlyoutText: @flyoutLabelColor;
+
+/*-------------------
+   Greenscreen
+--------------------*/
+
+@greenScreenBlockColor: #20BF6B;

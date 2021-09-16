@@ -1,0 +1,5 @@
+.pxt
+.vscode
+built
+gh-pages
+node_modules

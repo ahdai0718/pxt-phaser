@@ -1,0 +1,140 @@
+{
+    "id": "phaser",
+    "name": "phaser",
+    "title": "MakeCode Editor Phaser",
+    "corepkg": "core",
+    "cloud": {
+        "workspace": false,
+        "sharing": true,
+        "thumbnails": true,
+        "importing": true,
+        "packages": true,
+        "publishing": true,
+        "githubPackages": true,
+        "cloudProviders": {
+            "github": {
+                "id": "github",
+                "name": "GitHub",
+                "icon": "./static/providers/github-mark.png",
+                "identity": false,
+                "order": 3
+            },
+            "microsoft": {
+                "id": "microsoft",
+                "name": "Microsoft",
+                "icon": "./static/providers/microsoft-logo.svg",
+                "identity": true,
+                "redirect": true,
+                "order": 1
+            },
+            "google": {
+                "id": "google",
+                "name": "Google",
+                "icon": "./static/providers/google-logo.svg",
+                "identity": false,
+                "redirect": true,
+                "order": 2
+            }
+        }
+    },
+    "bundleddirs": [
+        "libs/core"
+    ],
+    "runtime": {
+        "mathBlocks": true,
+        "loopsBlocks": true,
+        "logicBlocks": true,
+        "variablesBlocks": true,
+        "textBlocks": true,
+        "functionBlocks": true,
+        "breakBlock": true,
+        "continueBlock": true,
+        "functionsOptions": {
+            "useNewFunctions": true,
+            "extraFunctionEditorTypes": [
+                {
+                    "typeName": "Sprite",
+                    "icon": "send",
+                    "defaultName": "mySprite"
+                },
+                {
+                    "typeName": "Image",
+                    "icon": "image outline",
+                    "defaultName": "myImage"
+                }
+            ]
+        },
+        "listsBlocks": true,
+        "tilesetFieldEditorIdentity": "images._tile",
+        "bannedCategories": [
+            "pins",
+            "control",
+            "input",
+            "serial",
+            "power"
+        ]
+    },
+    "simulator": {
+        "autoRun": true,
+        "aspectRatio": 0.85
+    },
+    "appTheme": {
+        "logoUrl": "https://github.com/ahdai0718/pxt-phaser",
+        "homeUrl": "http://ahdai0718.github.io/pxt-phaser/",
+        "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
+        "termsOfUseUrl": "https://go.microsoft.com/fwlink/?LinkID=206977",
+        "betaUrl": "https://makecode.com/",
+        "docMenu": [
+            {
+                "name": "About",
+                "path": "/about"
+            },
+            {
+                "name": "Docs",
+                "path": "/docs"
+            }
+        ],
+        "coloredToolbox": true,
+        "monacoToolbox": true,
+        "selectLanguage": true,
+        "availableLocales": [
+            "en"
+        ],
+        "invertedMenu": true,
+        "showHomeScreen": true,
+        "homeScreenHero": "./static/hero.png",
+        "blocklyOptions": {
+            "grid": {
+                "spacing": 20,
+                "length": 100,
+                "colour": "rgba(107, 79, 118, 0.10)",
+                "snap": true
+            }
+        },
+        "blockColors": {
+            "loops": "#20BF6B",
+            "logic": "#45AAF2",
+            "math": "#A55EEA",
+            "variables": "#EC3B59",
+            "text": "#F5D547",
+            "arrays": "#FF8F08",
+            "functions": "#1446A0"
+        },
+        "simAnimationEnter": "fly right in",
+        "simAnimationExit": "fly right out",
+        "scriptManager": true,
+        "debugger": true,
+        "print": true,
+        "highContrast": true,
+        "greenScreen": true,
+        "monacoColors": {
+            "editor.background": "#ecf0f1"
+        },
+        "monacoFieldEditors": [
+            "image-editor",
+            "tilemap-editor"
+        ],
+        "python": true,
+        "assetEditor": false
+    }
+}
