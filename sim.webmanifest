@@ -1,0 +1,23 @@
+{
+    "lang": "en",
+    "dir": "ltr",
+    "name": "phaser",
+    "short_name": "phaser",
+    "background_color": "#FAFAFA",
+    "icons": [
+        {
+            "src": "@cdnUrl@/blob/d4267ee3084a5bd757c88ef94e80611acb6e61b2/static/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "types": "image/png"
+        },
+        {
+            "src": "@cdnUrl@/blob/8b312ae4aa6dc7d17c7d7090f7d5f27d8211ccd6/static/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "types": "image/png"
+        }
+    ],
+    "scope": "/",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "landscape"
+}

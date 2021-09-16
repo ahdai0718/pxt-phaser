@@ -1,0 +1,72 @@
+CACHE MANIFEST
+
+CACHE:
+/pxt-phaser/semantic.js
+/pxt-phaser/main.js
+/pxt-phaser/pxtapp.js
+/pxt-phaser/typescript.js
+/pxt-phaser/marked/marked.min.js
+/pxt-phaser/highlight.js/highlight.pack.js
+/pxt-phaser/jquery.js
+/pxt-phaser/pxtlib.js
+/pxt-phaser/pxtcompiler.js
+/pxt-phaser/pxtpy.js
+/pxt-phaser/pxtblockly.js
+/pxt-phaser/pxtwinrt.js
+/pxt-phaser/pxteditor.js
+/pxt-phaser/pxtsim.js
+/pxt-phaser/pxtembed.js
+/pxt-phaser/pxtworker.js
+/pxt-phaser/pxtweb.js
+/pxt-phaser/blockly.css
+/pxt-phaser/semantic.css
+/pxt-phaser/rtlsemantic.css
+
+
+
+
+
+# blockly
+/pxt-phaser/blockly/media/sprites.png
+/pxt-phaser/blockly/media/click.mp3
+/pxt-phaser/blockly/media/disconnect.wav
+/pxt-phaser/blockly/media/delete.mp3
+
+# monaco; keep in sync with webapp/public/index.html
+/pxt-phaser/vs/loader.js
+/pxt-phaser/vs/base/worker/workerMain.js
+/pxt-phaser/vs/basic-languages/bat/bat.js
+/pxt-phaser/vs/basic-languages/cpp/cpp.js
+/pxt-phaser/vs/basic-languages/python/python.js
+/pxt-phaser/vs/basic-languages/typescript/typescript.js
+/pxt-phaser/vs/basic-languages/markdown/markdown.js
+/pxt-phaser/vs/editor/editor.main.css
+/pxt-phaser/vs/editor/editor.main.js
+/pxt-phaser/vs/editor/editor.main.nls.js
+/pxt-phaser/vs/language/json/jsonMode.js
+/pxt-phaser/vs/language/json/jsonWorker.js
+/pxt-phaser/vs/language/typescript/tsMode.js
+/pxt-phaser/vs/language/typescript/tsWorker.js
+
+# charts
+/pxt-phaser/smoothie/smoothie_compressed.js
+/pxt-phaser/images/Bars_black.gif
+
+# gifjs
+/pxt-phaser/gifjs/gif.js
+
+# ai
+/pxt-phaser/ai.0.js
+
+/pxt-phaser/worker.js
+/pxt-phaser/monacoworker.js
+
+# ver Thu Sep 16 2021 12:24:30 GMT+0800 (Taipei Standard Time)
+
+# target
+/pxt-phaser/docs/static/hero.png
+
+/pxt-phaser/target.js
+
+NETWORK:
+*
