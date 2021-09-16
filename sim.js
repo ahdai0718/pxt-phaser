@@ -52,10 +52,15 @@ var pxsim;
         }
     }
     pxsim.Board = Board;
+    const staticPath = () => {
+        return window.location.href.indexOf("localhost") > -1
+            ? "static"
+            : "docs/static";
+    };
     class BootScene extends Phaser.Scene {
         preload() {
-            this.load.image("phaser-logo", "./static/images/example/phaser3-logo.png");
-            this.load.image("particle", "./static/images/example/particle.png");
+            this.load.image("phaser-logo", `${staticPath()}/images/example/phaser3-logo.png`);
+            this.load.image("particle", `${staticPath()}/images/example/particle.png`);
         }
         create() {
             this.stage = this.add.container(640, 360, []);
