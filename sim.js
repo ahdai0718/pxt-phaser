@@ -16,6 +16,8 @@ var pxsim;
         return pxsim.runtime.board;
     }
     pxsim.board = board;
+    const Width = 720;
+    const Height = 1280;
     class Board extends pxsim.BaseBoard {
         constructor() {
             super();
@@ -35,8 +37,8 @@ var pxsim;
         initPhaser() {
             this.game = new Phaser.Game({
                 type: Phaser.AUTO,
-                width: 1280,
-                height: 720,
+                width: Width,
+                height: Height,
                 parent: "phaser-game-simulator",
                 backgroundColor: "#000000",
                 banner: false,
@@ -53,12 +55,16 @@ var pxsim;
             this.game.scene.add("boot", BootScene, false);
             this.game.scene.start("boot");
         }
+        currenScene() {
+            return this.game.scene.getScene("boot");
+        }
     }
     pxsim.Board = Board;
+    const isLocalhost = () => {
+        return /^http:\/\/(localhost|127\.0\.0\.1):\d+\//.test(window.location.href);
+    };
     const staticPath = () => {
-        return window.location.href.indexOf("localhost") > -1
-            ? "static"
-            : "docs/static";
+        return isLocalhost() ? "static" : "docs/static";
     };
     class BootScene extends Phaser.Scene {
         preload() {
@@ -66,7 +72,7 @@ var pxsim;
             this.load.image("particle", `${staticPath()}/images/example/particle.png`);
         }
         create() {
-            this.stage = this.add.container(640, 360, []);
+            this.stage = this.add.container(Width / 2, Height / 2, []);
             const particles = this.add.particles("particle");
             const emitter = particles.createEmitter({
                 speed: 100,
